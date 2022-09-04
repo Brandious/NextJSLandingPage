@@ -1,6 +1,5 @@
-import Image from 'next/image';
+
 import React from 'react';
-import { Container, Row, Col } from "reactstrap";
 
 const Footer = () => {
 return (
