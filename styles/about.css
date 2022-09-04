@@ -1,0 +1,37 @@
+.textWithBackground
+{
+    height: 15rem;
+    width: 20rem;
+    background: rgb(2,0,36);
+    background: linear-gradient(309deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6530209495907738) 0%, rgba(6,87,173,1) 5%, rgba(0,212,255,1) 88%);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -.43px;
+    line-height: 36px;
+    margin-top: -150px;
+    /* margin-left: 30px; */
+    text-align: center;
+    
+}
+
+.textForBackground
+{
+    z-index: 1000;
+    margin-top: 4.5rem;
+}
+
+
+@media(max-width: 570px) {
+    .textForBackground
+    {
+        z-index: 1000;
+        margin-top: 8rem;
+    }
+}
+
+#about  
+{
+    display: flex;
+    align-items: center;
+}
