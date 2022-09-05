@@ -2,9 +2,11 @@
   "name": "task-landing-page",
   "version": "0.1.0",
   "private": true,
+  "main": "function.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "deploy": "npm run build && npx firebase-tools deploy --only functions, hosting",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,9 +16,13 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.0",
+    "core-js-pure": "^3.25.0",
+    "firebase": "^9.9.4",
+    "firebase-admin": "^11.0.1",
+    "firebase-functions": "^3.23.0",
     "framer-motion": "^7.2.1",
     "next": "12.2.5",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-intersection-observer": "^9.4.0",
     "reactstrap": "^9.1.4"

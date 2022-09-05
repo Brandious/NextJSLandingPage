@@ -1,0 +1,21 @@
+.newContainer
+{
+    background: rgb(2,0,36);
+background: linear-gradient(309deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6530209495907738) 0%, rgba(6,87,173,1) 5%, rgba(0,212,255,1) 88%);
+
+}
+
+
+#new
+{
+ 
+    display: flex;
+    align-items: center;
+
+}
+
+#new > .container > .row
+{
+    display: flex;
+    align-items: center;
+}
